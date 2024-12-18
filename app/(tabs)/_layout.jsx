@@ -25,10 +25,10 @@ export default TabsLayout = () => {
         tabBarActiveTintColor: "#FFFFFF",
         tabBarInactiveTintColor: "#5D5C58",
         tabBarStyle: {
-          backgroundColor: "#161622",
+          backgroundColor: "#000000",
           borderTopWidth: 1,
           borderTopColor: "#232533",
-          height: 74,
+          height: 55,
         },
       }}
     >

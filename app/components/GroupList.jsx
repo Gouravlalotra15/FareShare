@@ -8,11 +8,11 @@ const GroupList = ({ ele }) => {
   return (
     <TouchableOpacity
       className="items-center"
-      onPress={() => router.replace("/components/GroupExpense")}
+      onPress={() => router.replace("/GroupExpense")}
     >
       <View className="bg-white shadow-lg rounded-lg p-4 mt-3 w-11/12 ">
         <View className="flex-row items-center mb-3">
-          <AvatarIcon></AvatarIcon>
+          <AvatarIcon size={30} text={"G"}></AvatarIcon>
           <View>
             <Text className="text-black font-bold">{ele.title}</Text>
             <Text className="text-gray-500 text-sm">{ele.date}</Text>

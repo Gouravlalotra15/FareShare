@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { View, Text, TouchableOpacity, ScrollView, Image } from "react-native";
-import GroupList from "../../components/GroupList";
+import GroupList from "../components/GroupList";
 const Groups = () => {
   const [toPay, setToPay] = useState(20);
   const [toCollect, setToCollect] = useState(0);

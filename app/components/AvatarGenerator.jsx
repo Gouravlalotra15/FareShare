@@ -1,12 +1,12 @@
 import AvatarGenerator from "react-native-avatar-generator";
 import { View } from "react-native";
 
-const AvatarIcon = () => (
-  <View style={{ alignItems: "center", marginRight: 10 }}>
+const AvatarIcon = ({ size, text }) => (
+  <View style={{ marginRight: 5 }}>
     <AvatarGenerator
-      backgroundColor="red"
-      text="G"
-      size={30}
+      backgroundColor="black"
+      text={text}
+      size={size}
       fontColor="#FFFFF"
     />
   </View>
