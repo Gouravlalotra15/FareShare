@@ -1,8 +1,22 @@
-# Welcome to your Expo app 👋
+## FareShare
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A collaborative expense-sharing app that allows users to split bills.
 
-## Get started
+## 🕹️ Demo
+
+<p align="center">
+<img src="./assets/images/spliwise1.jpeg" height="400px" width="200px"/>
+<img src="./assets/images/splitwise2.jpeg" height="400px" width="200px"/>
+<img src="./assets/images/splitwise3.jpeg" height="400px" width="200px"/>
+</p>
+
+## Features
+
+- Track shared expenses and settle balances
+- Individual tracking
+- User can upload the image of the bill it will automatically read the bill details
+
+## Installation
 
 1. Install dependencies
 
@@ -34,17 +48,3 @@ npm run reset-project
 ```
 
 This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.

@@ -5,7 +5,7 @@ import { Tabs } from "expo-router";
 
 const TabIcon = ({ icon, color, name, focused }) => {
   return (
-    <View className="items-center gap-1 mt-5">
+    <View className="items-center gap-1 mt-3">
       <Image
         source={icon}
         resizeMode="contain"
@@ -28,7 +28,7 @@ export default TabsLayout = () => {
           backgroundColor: "#000000",
           borderTopWidth: 1,
           borderTopColor: "#232533",
-          height: 55,
+          height: 80,
         },
       }}
     >
